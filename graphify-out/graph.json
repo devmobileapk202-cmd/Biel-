@@ -1,10 +1,55 @@
 {
-  "generated_at": "2026-09-28T17:05:52.043167+00:00",
+  "generated_at": "2026-09-28T17:10:04.009261+00:00",
   "files": [
     {
       "path": "README.md",
       "bytes": 25
+    },
+    {
+      "path": ".lovasiri/sync.json",
+      "bytes": 80
+    },
+    {
+      "path": "src/App.tsx",
+      "bytes": 754
+    },
+    {
+      "path": "src/pages/Admin.tsx",
+      "bytes": 3009
+    },
+    {
+      "path": "src/pages/Index.tsx",
+      "bytes": 3257
     }
   ],
-  "dependencies": []
+  "dependencies": [
+    {
+      "source": "src/App.tsx",
+      "target": "@tanstack/react-router"
+    },
+    {
+      "source": "src/App.tsx",
+      "target": "@/pages/Index"
+    },
+    {
+      "source": "src/App.tsx",
+      "target": "@/pages/Admin"
+    },
+    {
+      "source": "src/pages/Admin.tsx",
+      "target": "react"
+    },
+    {
+      "source": "src/pages/Admin.tsx",
+      "target": "@tanstack/react-router"
+    },
+    {
+      "source": "src/pages/Index.tsx",
+      "target": "react"
+    },
+    {
+      "source": "src/pages/Index.tsx",
+      "target": "@tanstack/react-router"
+    }
+  ]
 }
